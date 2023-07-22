@@ -6,7 +6,7 @@
 #include <sal.h>
 
 #define WMain wmain
-#define ALLOC_MAX_READ (0x01F00000)
+#define ALLOC_MAX_READ (0x01F00000U)
 #define ALLOC_MAX_WRITE (ALLOC_MAX_READ * 2U)
 
 _Ret_range_(FALSE, TRUE)
